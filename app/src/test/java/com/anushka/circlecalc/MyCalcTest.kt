@@ -29,14 +29,14 @@ class MyCalcTest {
     }
 
     @Test
-    fun calculateArea_givenArea_returnsCorrectResult() {
+    fun calculateArea_givenRadius_returnsCorrectResult() {
         val result = myCalc.calculateArea(5.0)
 
         assertThat(result).isEqualTo(78.5)
     }
 
     @Test
-    fun calculateArea_zeroArea_returnsCorrectResult() {
+    fun calculateArea_zeroRadius_returnsCorrectResult() {
         val result = myCalc.calculateArea(0.0)
 
         assertThat(result).isEqualTo(0.0)
