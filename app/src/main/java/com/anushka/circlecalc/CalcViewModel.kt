@@ -12,11 +12,11 @@ class CalcViewModel(
 
     var radius = MutableLiveData<String>()
 
-    var _area = MutableLiveData<String?>()
-    val areaValue = _area
+    private var _area = MutableLiveData<String?>()
+    val area = _area
 
-    var _circumference = MutableLiveData<String?>()
-    val circumferenceValue = _circumference
+    private var _circumference = MutableLiveData<String?>()
+    val circumference = _circumference
 
 
     fun calculate() {

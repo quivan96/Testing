@@ -53,7 +53,7 @@
             android:layout_margin="5dp"
             android:layout_marginBottom="5dp"
             android:ems="10"
-            android:text="@={myViewModel._area}"
+            android:text="@={myViewModel.area}"
             android:textSize="20sp"
             android:textStyle="bold" />
         <TextView
@@ -73,7 +73,7 @@
             android:layout_margin="5dp"
             android:layout_marginBottom="5dp"
             android:ems="10"
-            android:text="@={myViewModel._circumference}"
+            android:text="@={myViewModel.circumference}"
             android:textSize="20sp"
             android:textStyle="bold" />
             </LinearLayout>
